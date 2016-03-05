@@ -1,4 +1,4 @@
-<?php require("easy-writer/content.php"); ?>
+<?php require("in-scribe/services.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,7 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="test-bootstrap.files/jumbotron.css" rel="stylesheet">
 
-    <script src="easy-writer/app.js"></script>
+    <script src="in-scribe/app.js"></script>
   </head>
 
   <body>
@@ -40,7 +40,7 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <?php content("content/hello.html"); ?>
+        <?php inscribe("content/hello.html"); ?>
         <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
       </div>
     </div>
@@ -49,15 +49,15 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <?php content("content/section-1.html"); ?>
+          <?php inscribe("content/section-1.html"); ?>
           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-          <?php content("content/section-2.html"); ?>
+          <?php inscribe("content/section-2.html"); ?>
           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
        </div>
         <div class="col-md-4">
-          <?php content("content/section-3.html"); ?>
+          <?php inscribe("content/section-3.html"); ?>
           <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
         </div>
       </div>

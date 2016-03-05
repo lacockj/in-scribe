@@ -1,11 +1,11 @@
-<?php require("easy-writer/content.php"); ?>
+<?php require("in-scribe/services.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
   <!--<meta name="self" content="<?php echo $_SERVER['PHP_SELF'] ?>">-->
-  <script src="easy-writer/app.js"></script>
+  <script src="in-scribe/app.js"></script>
 </head>
 <body>
-  <?php content("content/hello.html"); ?>
+  <?php inscribe("content/hello.html"); ?>
 </body>
 </html>
